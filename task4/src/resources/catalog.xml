@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<news-catalog>
+    <category id="0" name="music">
+        <subcategory id="0" name="new-releases"/>
+        <subcategory id="1" name="star-gossip">
+            <news id="0">
+                <news-name>New something</news-name>
+                <provider>Dmitry Naumovich</provider>
+                <date-of-issue>30/05/2016</date-of-issue>
+                <news-body>Today it happened</news-body>
+            </news>
+        </subcategory>
+        <subcategory id="2" name="star-deaths"/>
+    </category>
+    <category id="1" name="movies">
+        <subcategory id="0" name="box-office"/>
+        <subcategory id="1" name="new-projects">
+            <news id="0">
+                <news-name>buzz</news-name>
+                <provider>Dmitry Naumovich</provider>
+                <date-of-issue>31/05/2016</date-of-issue>
+                <news-body>buzz is a kind</news-body>
+            </news>
+        </subcategory>
+        <subcategory id="2" name="new-trailers"/>
+    </category>
+    <category id="2" name="books">
+        <subcategory id="0" name="new-books"/>
+        <subcategory id="1" name="new-reviews"/>
+        <subcategory id="2" name="interesting-facts">
+            <news id="0">
+                <news-name>New fact</news-name>
+                <provider>John Smith</provider>
+                <date-of-issue>01/06/2016</date-of-issue>
+                <news-body>Earth is round</news-body>
+            </news>
+            <news id="1">
+                <news-name>Git Bash</news-name>
+                <provider>Dmitry Bznm</provider>
+                <date-of-issue>10/06/2016</date-of-issue>
+                <news-body>Git Bash released something</news-body>
+            </news>
+        </subcategory>
+    </category>
+</news-catalog>

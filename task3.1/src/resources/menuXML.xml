@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:menu xmlns:ns="http://www.example.org/menuSchema" 
+		  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:schemaLocation="http://www.example.org/menuSchema menuSchema.xsd ">
+		  
+  <menu-item id="0" item-name="Холодные закуски">
+    <menu-position id="0">
+      <photo-address>Фото00</photo-address>
+      <title>Ассорти рыбное</title>
+      <description>Слабосоленая форель, семга</description>
+      <portion>100/20/15</portion>
+      <price>100</price>
+    </menu-position>
+    
+    <menu-position id="1">
+      <photo-address>Фото01</photo-address>
+      <title>Тарталетки с красной икрой</title>
+      <description>Тарталетки с красной икрой</description>
+      <portion>60/50</portion>
+      <price>80</price>
+    </menu-position>
+    
+    <menu-position id="2">
+      <photo-address>Фото02</photo-address>
+      <title>Куриный рулет</title>
+      <description>Куриный рулет собственного производства</description>
+      <portion>100/5</portion>
+      <price>120</price>
+    </menu-position>
+    
+    <menu-position id="3">
+      <photo-address>Фото03</photo-address>
+      <title>Бастурма</title>
+      <description>Вяленая вырезка из говяжьего мяса</description>
+      <portion>50/5</portion>
+      <price>150</price>
+    </menu-position>
+  </menu-item>
+  
+  <menu-item  id="1" item-name="Горячие закуски">
+  	<menu-position id="0">
+  		 <photo-address>Фото10</photo-address>
+      	 <title>Лобио с шампиньонами</title>
+      	 <description>Фасоль с шампиньонами и грецким орехом</description>
+      	 <portion>150/5</portion>
+      	 <price>105</price>
+  	</menu-position>
+  	
+  	<menu-position id="1">
+  		 <photo-address>Фото11</photo-address>
+      	 <title>Жульен</title>
+      	 <description>1. с курицей; 2. с грибами</description>
+      	 <portion>120/1</portion>
+      	 <price>145</price>
+  	</menu-position>
+  	
+  	<menu-position id="2">
+  		 <photo-address>Фото12</photo-address>
+      	 <title>Ахтамар мясной</title>
+      	 <description>Колбаса, ветчина, буженина, сыр, запеченные в мангале в лаваше</description>
+      	 <portion>1 шт.</portion>
+      	 <price>165</price>
+  	</menu-position>
+  	
+  	<menu-position id="3">
+  		 <photo-address>Фото13</photo-address>
+      	 <title>Ахтамар с овощами</title>
+      	 <description>Сыр, помидоры, зелень, запеченные на мангале в лаваше</description>
+      	 <portion>1 шт.</portion>
+      	 <price>150</price>
+  	</menu-position>
+  </menu-item>
+  
+  <menu-item  id="2" item-name="Завтраки">
+  	<menu-position id="0">
+  		 <photo-address>Фото20</photo-address>
+      	 <title>Глазунья</title>
+      	 <description>2 яйца (на выбор: ветчина, сыр, помидоры)</description>
+      	 <portion>150</portion>
+      	 <price>60</price>
+  	</menu-position>
+  	
+  	<menu-position id="1">
+  		 <photo-address>Фото21</photo-address>
+      	 <title>Омлет</title>
+      	 <description>Яйца</description>
+      	 <portion>100</portion>
+      	 <price>80</price>
+  	</menu-position>
+  	
+  	<menu-position id="2">
+  		 <photo-address>Фото22</photo-address>
+      	 <title>Блинчики с мясом</title>
+      	 <description>Жареные блинчики с мясом</description>
+      	 <portion>150</portion>
+      	 <price>100</price>
+  	</menu-position>
+  </menu-item>
+</ns:menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<bean id="bookDao" class="com.epam.library.dao.impl.BookDaoImpl" init-method="init"/>
+	
+	<bean id="bookService" class="com.epam.library.service.impl.BookServiceImpl">
+		<property name="bookDao"><ref bean="bookDao"/></property>
+	</bean>
+</beans>

@@ -1,0 +1,5 @@
+09/Mar/2017 14:31:26,400- Logger: GET Method called in MainController, id = 1
+09/Mar/2017 14:33:30,601- Logger: Delete Method called in MainController, id = 1
+09/Mar/2017 14:34:57,751- Logger: GET Method called in MainController, id = 1
+09/Mar/2017 14:35:20,721- Logger: Update Method called in MainController, id = 1
+09/Mar/2017 14:35:47,046- Logger: Add Method called in MainController

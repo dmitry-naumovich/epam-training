@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:menu xmlns:ns="http://www.example.org/menuSchema" 
+		  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:schemaLocation="http://www.example.org/menuSchema menuSchema.xsd ">
+		  
+  <menu-item id="0" item-name="Cold stacks">
+    <menu-position id="0">
+      <photo-address>Photo00</photo-address>
+      <title>Fish made dish</title>
+      <description>Low salt</description>
+      <portion>100/20/15</portion>
+      <price>100</price>
+    </menu-position>
+    
+    <menu-position id="1">
+      <photo-address>Photo01</photo-address>
+      <title>Tartlets with red fish</title>
+      <description>Tartlets with red fish</description>
+      <portion>60/50</portion>
+      <price>80</price>
+    </menu-position>
+    
+    <menu-position id="2">
+      <photo-address>Photo02</photo-address>
+      <title>Chicken roulet</title>
+      <description>Chicken roulet made by us</description>
+      <portion>100/5</portion>
+      <price>120</price>
+    </menu-position>
+    
+    <menu-position id="3">
+      <photo-address>Photo03</photo-address>
+      <title>Basturma</title>
+      <description>Basturma</description>
+      <portion>50/5</portion>
+      <price>150</price>
+    </menu-position>
+  </menu-item>
+  
+  <menu-item  id="1" item-name="Hot stacks">
+  	<menu-position id="0">
+  		 <photo-address>Photo10</photo-address>
+      	 <title>Lobio with mushrooms</title>
+      	 <description>Lobio with mushrooms and nuts</description>
+      	 <portion>150/5</portion>
+      	 <price>105</price>
+  	</menu-position>
+  	
+  	<menu-position id="1">
+  		 <photo-address>Photo11</photo-address>
+      	 <title>Joulien</title>
+      	 <description>1. with chicken; 2. with mushrooms</description>
+      	 <portion>120/1</portion>
+      	 <price>145</price>
+  	</menu-position>
+  	
+  	<menu-position id="2">
+  		 <photo-address>Photo12</photo-address>
+      	 <title>Meat ahtamar</title>
+      	 <description>Many things</description>
+      	 <portion>1 шт.</portion>
+      	 <price>165</price>
+  	</menu-position>
+  	
+  	<menu-position id="3">
+  		 <photo-address>Photo13</photo-address>
+      	 <title>Vegetable ahtamar</title>
+      	 <description>Cheese and stuff like that</description>
+      	 <portion>1 шт.</portion>
+      	 <price>150</price>
+  	</menu-position>
+  </menu-item>
+  
+  <menu-item  id="2" item-name="Breakfasts">
+  	<menu-position id="0">
+  		 <photo-address>Photo20</photo-address>
+      	 <title>Eggs</title>
+      	 <description>2 eggs</description>
+      	 <portion>150</portion>
+      	 <price>60</price>
+  	</menu-position>
+  	
+  	<menu-position id="1">
+  		 <photo-address>Photo21</photo-address>
+      	 <title>Omlet</title>
+      	 <description>Eggs</description>
+      	 <portion>100</portion>
+      	 <price>80</price>
+  	</menu-position>
+  	
+  	<menu-position id="2">
+  		 <photo-address>Photo22</photo-address>
+      	 <title>Pancakes</title>
+      	 <description>With meat</description>
+      	 <portion>150</portion>
+      	 <price>100</price>
+  	</menu-position>
+  </menu-item>
+</ns:menu>

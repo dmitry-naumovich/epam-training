@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appenders>
+		<console name="STDOUT" target="SYSTEM_OUT">
+			<patternlayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n" />
+		</console>
+	</appenders>
+	
+	<loggers>
+		<!-- <Logger name="org.apache.logging.log4j.xml" level="info" /> -->
+		<root level="debug">
+			<appenderref ref="STDOUT" />
+		</root>
+	</loggers>
+</configuration>

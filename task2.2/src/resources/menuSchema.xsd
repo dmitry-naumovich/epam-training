@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/menuSchema" 
+	xmlns:tns="http://www.example.org/menuSchema">
+	
+	<element name="menu">
+		<complexType>
+			<choice minOccurs="1" maxOccurs="unbounded">
+				<element name="menu-item" type="tns:MenuItem" />
+			</choice>
+		</complexType>
+	</element>
+	
+	<complexType name="MenuItem">
+		<choice minOccurs="1" maxOccurs="unbounded">
+			<element name="menu-position" type="tns:MenuPosition" />
+		</choice>
+		<attribute name="id" type="int" use="required" />
+		<attribute name="item-name" type="tns:ItemName" use="required" />
+	</complexType>
+	
+	<simpleType name="ItemName" >
+		<restriction base="string">
+			<enumeration value="Cold stacks" />
+			<enumeration value="Hot stacks" />
+			<enumeration value="Breakfasts" />
+			<enumeration value="Salads" />
+			<enumeration value="First Dishes" />
+			<enumeration value="Fish Dishes" />
+			<enumeration value="Meat dishes" />
+			<enumeration value="Garnishes" />
+			<enumeration value="Dishes made on brazier" />
+			<enumeration value="From chief cook" />
+			<enumeration value="Application" />
+			<enumeration value="Dessert" />
+		</restriction>
+	</simpleType>
+	
+	<complexType name="MenuPosition">
+		<sequence>
+			<element name="photo-address" type="string" />
+			<element name="title" type="string"/>
+			<element name="description" type="string" />
+			<element name="portion" type="string" />
+			<element name="price" type="int" />
+		</sequence>
+		<attribute name="id" type="int" use="required" />
+	</complexType>
+	
+</schema>
