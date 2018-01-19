@@ -1,2 +1,2 @@
-# task3.1
-Epam training task 3.1 (SAX and StAX Parsers)
+# XML & XSD. SAX and StAX Parsers
+Прочитать xml-документ, созданный для хранения меню ресторана Жемчужинка с помощью SAX и StAX парсеров.
